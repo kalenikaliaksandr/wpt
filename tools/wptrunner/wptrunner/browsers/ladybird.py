@@ -44,7 +44,7 @@ def env_extras(**kwargs):
 class LadybirdBrowser(WebDriverBrowser):
     def __init__(self, logger, webdriver_args=None,
                  host="localhost", port=None, base_path="/", env=None, **kwargs):
-        webdriver_bin = "/Users/kalenik/projects/serenity/Build/lagom/Ladybird/WebDriver/WebDriver"
+        webdriver_bin = "WebDriver"
 
         super().__init__(logger, "binary???", webdriver_bin, webdriver_args=webdriver_args,
                          host=host, port=port, base_path=base_path, env=env, **kwargs)
