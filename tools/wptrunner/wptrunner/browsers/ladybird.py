@@ -16,10 +16,10 @@ __wptrunner__ = {
     "env_extras": "env_extras",
     "timeout_multiplier": "get_timeout_multiplier",
     "executor": {
-        "testharness": "WebDriverTestharnessExecutor",
+        # "testharness": "WebDriverTestharnessExecutor",
         "reftest": "WebDriverRefTestExecutor",
-        "wdspec": "WdspecExecutor",
-        "crashtest": "WebDriverCrashtestExecutor"
+        # "wdspec": "WdspecExecutor",
+        # "crashtest": "WebDriverCrashtestExecutor"
     }
 }
 
